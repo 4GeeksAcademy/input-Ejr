@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card" style="width: 70rem;height: 40rem;margin: auto;border: solid #ccc; padding: 10px;">
+        <form>
+            <!-- As a heading -->
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1"><b>Pyment form example</b></span>
+                </div>
+            </nav>
+            <div class="alert alert-danger" role="alert">
+                some fiels are missing
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-6">
+                    <label for="Card">Card #</label>
+                    <input type="number" class="form-control" aria-label="Card">
+                </div>
+                <div class="col-3">
+                    <label for="CVC">CVC #</label>
+                    <input type="number" class="form-control" placeholder="000" aria-label="CVC">
+                </div>
+                <div class="col-3">
+                    <label for="Amount">Amount</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-6">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control" aria-label="Nombre">
+                </div>
+                <div class="col-6">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" class="form-control" aria-label="Apellido">
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-6">
+                    <label for="Ciudad">Ciudad</label>
+                    <input type="text" class="form-control" aria-label="Ciudad">
+                </div>
+                <div class="col-3">
+                    <label for="Default select example">Estado</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Abre este menu</option>
+                        <option value="Margarita">Margarita</option>
+                        <option value="caracas">caracas</option>
+                        <option value="maracay">maracay</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <label for="Codigo Postal">Codigo Postal</label>
+                    <input type="number" class="form-control" aria-label="Codigo Postal">
+                </div>
+                <div class="container col mt-3">
+                    <div style="border-bottom: 1px solid #ccc;width: 300px; background-color: rgb(39, 225, 225); ">
+                        <label class="form-label">We accept:</label>
+
+                        <div class="optionCard" class="padding:10px 20px" class="border-radius:10px">
+                            <label class="Cardoption">
+                                <input type="radio" name="card" value="mastercard" checked>
+                                <img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/6574.png"
+                                    alt="mastercard" class="cardimg" style="width: 40px; height: auto;">
+                            </label>
+
+                            <label class="Cardoption">
+                                <input type="radio" name="card" value="mastercard" checked>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Former_Visa_%28company%29_logo.svg/1600px-Former_Visa_%28company%29_logo.svg.png"
+                                    alt="mastercard" class="cardimg" style="width: 40px; height: auto;">
+                            </label>
+
+                            <label class="Cardoption">
+                                <input type="radio" name="card" value="mastercard" checked>
+                                <img src="https://cdn-icons-png.flaticon.com/512/349/349228.png" alt="mastercard"
+                                    class="cardimg" style="width: 40px; height: auto;">
+                            </label>
+
+                            <label class="Cardoption">
+                                <input type="radio" name="card" value="mastercard" checked>
+                                <img src="https://s3-eu-west-1.amazonaws.com/rankia/images/valoraciones/0023/4410/maestro_foro.png?1461935189"
+                                    alt="mastercard" class="cardimg" style="width: 40px; height: auto;">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-floating">
+
+                        <div class="form-floating" style="max-width: 450px; margin-left: auto;">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+                    
+                        <button class="btn btn-success me-md-2" type="button">Cancelar</button>
+                        <button class="btn btn-primary" type="button">Enviar</button>
+                    
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
